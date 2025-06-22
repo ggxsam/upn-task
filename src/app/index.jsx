@@ -1,11 +1,16 @@
 import React from "react";
-import MainPage from "./mainPage";
+import NameTag from "./NameTag";
 
 const App = () => {
-  return <div>
-      <MainPage />
-    </div>
+  return <div className="">
 
+    <NameTag 
+    name={"name"}
+    position={"position"}
+    description={"description"}
+    email={"email"}
+    />
+  </div>;
 };
 
 export default App;
